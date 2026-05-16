@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1d024c;
+    display: flex;
+
+}
+
+#menu-lateral {
+    border-right: 1px solid rgb(104, 104, 104);
+    width: 16vw;
+    height: 100vh;
+}
+
+#logo {
+    height: 18vh;
+}
+
+#logo img {
+    width: 15vw;
+}
+
+.box-icon i {
+    color: white;
+
+}
+
+.box-icon p {
+    color: white;
+    font-size: 12px;
+}
+
+.box-icon {
+    display: flex;
+    padding-left: 2vw;
+    gap: 20px;
+    height: 9vh;
+    align-items: center;
+}
+
+hr {
+    border: 1px solid rgb(104, 104, 104);
+    width: 90%;
+
+}
+
+#box-hr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 9vh;
+}
+
+#box-avatar img {
+    width: 3vw;
+}
+
+#cabecalho {
+    width: 84vw;
+    justify-content: flex-end;
+    display: flex;
+    height: 18vh;
+
+}
+
+#box-search {
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#box-avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box-input input {
+    width: 20vw;
+    height: 7vh;
+    border-radius: 20px;
+    background-color: #270E63;
+    border: 1px solid rgb(104, 104, 104);
+    outline: none;
+}
+
+#box-input i {
+    margin-left: -30px;
+    position: absolute;
+    margin-top: 13px;
+    color: rgb(104, 104, 104);
+}
+
+#box-input input::placeholder {
+    color: rgb(104, 104, 104);
+    padding: 10px;
+    font-size: 12px;
+}
+
+
+#box-avatar i {
+    color: white;
+    font-size: 20px;
+}
+
+#box-avatar img {
+    width: 4vw;
+}
+
+#regresso {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cards {
+    background-color: #2c1468;
+    width: 19vw;
+    height: 16vh;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    border-radius: 4%;
+}
+
+.icon {
+    color: white;
+    background-color: #441c90;
+    height: 7vh;
+    width: 4vw;
+    font-size: 22px;
+    border-radius: 14%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1vw;
+    margin-bottom: 1.5vw;
+
+}
+
+.text {
+    text-align: start;
+}
+
+.text strong {
+    color: white;
+    font-size: 16px;
+}
+
+.text p {
+    color: #aa89e8;
+    font-size: 9px;
+
+}
+
+.text a {
+    color: #aa89e8;
+    font-size: 9px;
+}
+
+#alune{
+    color: white;
+    align-items: start;
+    width: 60vw;
+    align-self: center;
+    margin-left: 1vw;
+}
+
+#alune p {
+    color: #aa89e8;
+    font-size: 10px;
+}
+
